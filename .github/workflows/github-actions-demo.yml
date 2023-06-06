@@ -23,7 +23,7 @@ jobs:
           node-version: '18.x'
 
       - name: Install dependencies
-        run: npm install
+        run: ./backend npm install
 
       - name: Run tests
         run: npm test
